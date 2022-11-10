@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Selections</title>
+    </head>
+    <body>
+        <h1>Hotel Feedback Form</h1>
+        <form method = "get">
+            <h3>Are you from inside the US? Or are you from outside the US</h3>
+            <!-- Para tornar a seleção única, dê o mesmo NAME aos inputs-->
+            <label for="inusa">Inside: </label>
+            <input id="inusa" type="radio" name="loc" value="inside">
+            <label for="outusa">Ouside: </label>
+            <input id="outusa" type="radio" name="loc" value="outside">
+
+            <h3>How was you service?</h3>
+            <select name="stars">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+            </select>
+            <br>
+            
+            <h3> Any other feedback?</h3>
+            <!--
+                <input type="text" name="" value="">
+            -->
+                <textarea name="mytext" rows="8" cols="80"></textarea>
+            
+            <!--o que tem em VALUE é entregado pelo submit-->
+            <input type="submit" name="" value="Submit">
+
+        </form>
+
+    </body>
+</html>
