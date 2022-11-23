@@ -1,0 +1,35 @@
+body{
+
+    /* can be background for basic colors
+
+    or background-color */
+
+    background: url(https://static01.nyt.com/images/2021/08/22/books/review/Bissell/merlin_188029359_e129f6fb-e799-486c-801a-6acbc582bdff-mediumSquareAt3X.jpg);
+    background-repeat:inherit;
+    background-size:cover;
+
+}
+
+div{
+
+    background-color: #ff6600;
+
+    /* para usar borda, precisa de width e style */
+    border-width: 5px;
+    border-style:double;
+    border-color: blue;
+
+}
+
+p{
+
+    color:yellow
+
+}
+
+span{
+
+    background: red;
+    color:black;
+
+}

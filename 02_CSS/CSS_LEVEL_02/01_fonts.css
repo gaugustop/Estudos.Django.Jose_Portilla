@@ -1,0 +1,57 @@
+h1{
+
+    font-family: "Arial";
+
+}
+
+
+
+/* some fonts dont work on every OS */
+
+
+
+p{
+
+    font-family: monospace;
+
+}
+
+
+
+body{
+
+    font-size: 20px;
+
+}
+
+
+
+#two{
+
+    font-size: 2.0em;
+
+}
+
+/* no default: 1em = 16ps
+
+mas nesse caso 1em = 20px, ie,
+
+o tamanho da fonte em body*/
+
+
+
+p{
+
+    font-style: italic;
+
+    font-weight: bold;
+
+}
+
+
+
+h1{
+
+    text-align: center;
+
+}

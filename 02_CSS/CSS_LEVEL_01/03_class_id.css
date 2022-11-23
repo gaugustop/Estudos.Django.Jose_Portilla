@@ -1,0 +1,79 @@
+div{
+
+    color:red;
+
+}
+
+
+
+/* classes usam . */
+
+.FirstDiv{
+
+    color: blue;
+
+}
+
+
+
+.SecondDiv{
+
+    color: green;
+
+}
+
+
+
+/* ids usam # */
+
+#singledout{
+
+    color:blueviolet;
+
+    text-decoration: line-through;
+
+}
+
+
+
+/* * é para tudo e sobrepõe tudo menos os ids */
+
+/* *{
+
+    color: black;
+
+} */
+
+
+
+/* json siblings, select all ul that are imediatly after h3 */
+
+/* border: width style color */
+
+h3 + ul{
+
+    border: 4px dotted purple
+
+}
+
+
+
+/* descendence: anchor tag inside a list */
+
+li a{
+
+    color:red
+
+}
+
+
+
+/* attributes: use [attr="..."]  */
+
+li a[href="http://www.npr.org"]{
+
+    color: blue;
+
+    border: 5px solid orange;
+
+}

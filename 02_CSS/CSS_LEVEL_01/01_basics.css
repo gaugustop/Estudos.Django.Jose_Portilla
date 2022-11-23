@@ -1,0 +1,37 @@
+/* crtl + ; make a comment */
+
+/* selected tag{
+
+    property: value;
+
+} */
+
+h1{
+
+    color: blue;
+
+}
+
+
+
+li{
+
+    color: rgb(59, 170, 26);
+    font-weight: bold;
+    font-family:'Gill Sans';
+
+}
+
+/* more commom these days */
+
+p{
+
+    color:#25b4c7;
+
+}
+
+h3{
+
+    color:rgba(42, 139, 42,0.5);
+
+}
